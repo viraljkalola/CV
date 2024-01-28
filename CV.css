@@ -1,0 +1,231 @@
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+body {
+  width: 21cm;
+  height: 29.7cm;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: "Radio Canada", sans-serif;
+}
+
+.title-div {
+  margin-top: 20px;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: 32% 1fr;
+  column-gap: 1%;
+  padding: 5px;
+}
+
+.grid-1 {
+  background-color: rgb(231, 228, 228, 0.5);
+  padding-left: 25px;
+  padding-top: 20px;
+  box-shadow: 0px 0px 15px grey;
+  padding-right: 5px;
+  margin-bottom: 8px;
+}
+
+.grid-education-col,
+.grid-experience-col {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  display: flex;
+  align-items: flex-start;
+  font-size: 15px;
+}
+
+.education,
+.experience {
+  padding-top: 15px;
+  padding-left: 15px;
+  box-shadow: 0px 0px 15px grey;
+  margin-bottom: 8px;
+  background-color: rgb(245, 245, 206);
+}
+
+.intro {
+  font-size: 15px;
+}
+
+.intro i {
+  font-size: 16px;
+  padding-right: 20px;
+  color: rgb(2, 2, 80);
+}
+
+.grid-education-margin,
+.grid-experience-margin {
+  margin-top: -10px;
+}
+
+.grid-experience-row {
+  width: 380px;
+}
+
+.flex-date,
+.flex-address,
+.flex-email,
+.flex-phone,
+.flex-github {
+  display: flex;
+  align-items: center;
+}
+
+.cv-title {
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0px 0px 15px grey;
+  margin-bottom: 8px;
+  width: 100%;
+  color: azure;
+  background-color: rgb(75, 2, 2);
+}
+
+.cv-title h2 {
+  font-size: xx-large;
+}
+
+.cv-title h3 {
+  font-size: x-large;
+}
+
+.title-hr {
+  display: flex;
+  justify-content: center;
+  font-family: "Radio Canada", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px 3px rgb(31, 31, 31, 0.5);
+}
+
+.hr-1 {
+  width: 237.3px;
+  height: 4px;
+  background-color: #000;
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 277px;
+}
+
+.hr-2 {
+  width: 237.3px;
+  height: 1px;
+  background-color: #000;
+}
+
+.profile {
+  padding-top: 20px;
+}
+
+.skills {
+  padding-top: 20px;
+}
+
+.profile-text,
+.skills-text,
+.education-text,
+.experience-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-text,
+.skills-text {
+  background: linear-gradient(
+    to right,
+    rgb(105, 216, 210),
+    rgb(2, 2, 80),
+    grey,
+    rgb(58, 58, 48)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.profile-hr,
+.skills-hr {
+  width: 4cm;
+  border-bottom: 2px solid #000;
+  padding-bottom: 4px;
+}
+
+.education-text,
+.experience-text {
+  width: 4cm;
+  border-bottom: 2px solid #000;
+  padding-bottom: 4px;
+}
+
+.education-hr i,
+.experience-hr i {
+  font-size: 40px;
+  padding-right: 20px;
+  background: linear-gradient(
+    to right,
+    orange,
+    rgb(75, 2, 2),
+    grey,
+    rgb(245, 245, 206)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.education-hr,
+.experience-hr {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    orange,
+    rgb(75, 2, 2),
+    grey,
+    rgb(245, 245, 206)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.education-1,
+.experience-1 {
+  padding-right: 35px;
+}
+
+.experience-padding {
+  padding-right: 11px;
+}
+
+img {
+  margin-left: 4px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+}
+
+.experience-icon-margin {
+  margin-left: 26px;
+}
+
+.internship{
+  padding-top: 20px;
+}
+
+.internship-2{
+  padding-top: 5px;
+}
+
+.character{
+  color: rgb(245, 245, 206);;
+}
+
+.cert-margin{
+  margin-left: 11%;
+}

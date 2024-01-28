@@ -1,0 +1,7 @@
+.rect {
+  background-color: red;
+
+  justify-content: end;
+
+  display: flex;
+}
